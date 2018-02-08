@@ -1,0 +1,18 @@
+cls
+echo-off
+print Start command file, kernel version:
+get-core-version
+print Date and time:
+date
+time
+print Current dir:
+pwd
+print Change dir:
+cd /rd/
+pwd
+ls
+print Pause 5 sec and start shell...
+pause 5
+/rd/1/shell hello!
+echo This is end command file.
+echo-on
